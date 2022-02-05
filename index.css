@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Staatliches' ;
+    src: url('font/Staatliches-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(123, 0, 194)
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(248, 231, 255);
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 15px 10px 0 30px;
+    font-family: Staatliches;
+    font-weight: 400;
+    color:rgb(186, 87, 252);
+    width: calc(100vw - 40px);
+}
+
+.container {
+    display: flex;
+}
+
+.name {
+    font-size: 65px;
+    font-family: 'Staatliches' ;
+    src: url('font/Staatliches-Regular.ttf') format('truetype');
+}
+
+.menu {
+    padding: 0 15px 0 0;
+    font-size: 40px;
+    font-family: 'Staatliches' ;
+    src: url('font/Staatliches-Regular.ttf') format('truetype');
+}
+
+.long_line {
+    width: 100vw;
+    height: 3px;
+    background:rgb(220, 146, 255);
+    margin: 20px 0;
+}
+
+.medium_line {
+    width: 100vw;
+    height: 3px;
+    background:rgb(242, 198, 255);
+    margin: 20px 0;
+}
+
+.citycat {
+    width: 280px;
+    border-radius: 200px;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgba(157, 84, 206, 0.651)
+}
+
+.catcat {
+    width: 250px;
+    border-radius: 280px;
+    margin-top: 30px;
+    box-shadow: 0 0 50px rgba(212, 71, 255, 0.658)
+}
+
+.fullname {
+    font-size: 45px;
+    margin-top: 15px;
+    color:rgb(155, 52, 187)
+}
+
+.short_line {
+    width: 90px;
+    height: 2px;
+    background:rgb(215, 130, 255);
+    margin: 20px 0;
+}
+
+.twitter {
+    padding: 0px 7px 20px 10px
+}
+
+.youtube {
+    padding: 0px 7px 20px 10px
+}
+
+.dis {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 28px;
+    color:rgb(90, 59, 161);  
+    font-family: 'DoHyeon' ;
+    src: url('font/DoHyeon-Regular.ttf') format('truetype');
+}
+
+.groupname {
+    font-family: 'Staatliches' ;
+    src: url('font/Staatliches-Regular.ttf') format('truetype');
+    font-size: 60px;
+}
+
+.list {
+    line-height: 30px;
+    color: rgb(78, 37, 116);
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-top: 55px;
+    font-size: 25px;
+    font-family: 'Staatliches' ;
+    src: url('font/Staatliches-Regular.ttf') format('truetype');
+}
+
+.link {
+    line-height: 30px;
+    color: rgb(78, 37, 116);
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Staatliches' ;
+    src: url('font/Staatliches-Regular.ttf') format('truetype');
+}
+
+.title {
+    line-height: 30px;
+    color: rgb(193, 126, 255);
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-top: 55px;
+    font-size: 30px;
+    font-family: 'Staatliches' ;
+    src: url('font/Staatliches-Regular.ttf') format('truetype');
+}
